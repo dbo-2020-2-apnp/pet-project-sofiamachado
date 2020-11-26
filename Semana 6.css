@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  background-color: lightyellow;
+}
+* {
+  box-sizing: border-box;
+}
+div {
+  border: solid;
+  border-color: rgb(90,90,130);
+  background-color: rgb(190, 190, 220);
+  border-width: 0.5em;
+  border-style: dotted;
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+div.direita {
+  border: teal solid ;
+  background-color: rgb(135, 250, 250);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div.esquerda {
+  border: yellow solid;
+  background-color: rgb(250, 240, 120);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+div.parado {
+  border: red solid;
+  background-color: rgb(250, 150, 150);
+  position: fixed;
+  top: 50%;
+  left: 37.5%;
+  /* ficou no meio eu acho kkk as gambiarra */
+}
+div.over {
+  border: green solid;
+  background-color: lightgreen;
+  position: relative;
+  top: 100px;
+  height: 200px;
+  text-align: justify;
+  overflow-y: scroll;
+}
+div.over2 {
+  border: orangered solid;
+  background-color: rgb(255, 190, 150);
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  height: 100px;
+  width: 150px;
+  overflow: scroll;
+}
+figure {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  border: black solid;
+}
+/* tem float, :nth-of-type(), clear, calc, margin: top bottom right left E BOX SHADOW VO COLOCA */

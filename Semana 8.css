@@ -1,0 +1,40 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(245, 255, 153);
+}
+div.rupauls {
+  display: flex;
+  align-items: center;
+  padding: 28px;
+  margin: 0px 0px;
+  background-color: lightpink;
+  flex-direction: row-reverse;
+}
+span {
+  margin: 10px 10px;
+}
+span:hover{
+  background-color: rgb(255, 112, 136);
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+img:hover{
+  border: rgb(255, 112, 136) solid;
+}
+img {
+  margin-bottom: 15px;
+}
+header{
+  left: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 7px;
+}
